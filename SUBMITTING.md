@@ -28,6 +28,7 @@ The test labels stay private. A maintainer scores each submission and posts the 
 
 - One scored submission per model version per 7 days. This limits probing of the test set.
 - Do not tune on the test inputs. Use the development data (`data/dev/`), which ships with labels.
+- Use only the mention records as input. Do not use the family of a test world, even though `world_id` can reveal it (see `DATA_CARD.md`).
 - A world you do not answer, or answer in a form that does not parse, scores as unresolved singletons and
   stays in the denominator. Missing worlds are never dropped. Use `--allow-missing` only to submit a partial
   run on purpose.

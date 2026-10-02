@@ -53,6 +53,10 @@ In v2, mention order within a world follows `(source_timeline_index, frame_index
 mentions within each report, and we found no link between order and labels beyond the timeline. Worlds in the test
 file are sorted by `world_id`, a hash, so file position does not reveal the family.
 
+`world_id` is derived from generation parameters that include the family name, so someone who guesses those
+parameters can recover each test world's family. The family does not reveal labels, and the models in the paper
+never saw it. We kept the IDs unchanged because they appear inside the prompts the reported models received.
+
 ## Checks run before release
 
 - The public test inputs equal what the LLM runs saw. The per-world prompt hash of every DeepSeek test
