@@ -1,0 +1,3 @@
+Your last reply was not valid: {error}
+
+Reply again with only the corrected JSON object: exactly the keys "category_groups" and "entity_groups", each a list of lists of mention ids, with every id from M1 to M{mention_count} appearing exactly once in each list. No other text.

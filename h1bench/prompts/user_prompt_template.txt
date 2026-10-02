@@ -1,0 +1,5 @@
+Mentions, in the order given ({mention_count} total, ids M1..M{mention_count}):
+
+{mentions_json}
+
+Return only the JSON object described in the system instructions, grouping these mention ids by category and by entity.

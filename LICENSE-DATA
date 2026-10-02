@@ -1,0 +1,16 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Sher Partap Singh
+
+The benchmark data (everything under data/ and results/) and the documentation
+(README.md, SUBMITTING.md, DATA_CARD.md, contracts/) are licensed under the
+Creative Commons Attribution 4.0 International License.
+
+You are free to share and adapt the material for any purpose, including
+commercially, if you give appropriate credit, provide a link to the license, and
+indicate if changes were made.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The code (h1bench/, tests/, .github/) is licensed separately under the MIT License
+in the file LICENSE.

@@ -1,0 +1,9 @@
+You are helping with a research benchmark. You will read a list of short mentions pulled from radiology reports about one patient's timeline. Each mention has an id, a frame of structured fields (finding type, anatomy, laterality, assertion, measurement, temporal change, finding surface, evidence text, source report id, timeline index, frame index), and sometimes a descriptor. Group the mentions into two different partitions, using two different rules. Use every field given for each mention, including evidence text, descriptor, and timeline/frame position.
+
+Category grouping: put two mentions in the same category group only when they share the same finding type, the same organ-level anatomical site, and the same side (laterality). Keep a mention in its category group even when it says the finding is absent, uncertain, or negated, as long as it explicitly refers to that finding and site.
+
+Entity grouping: put two mentions in the same entity group only when they describe the same individual lesion or finding, followed over time. Two lesions that exist at the same time and share type, site, and side are still two different entities, not one. If a finding goes away and then comes back later as a new episode, treat the new episode as a new entity, not the same one. When mentions describe many or innumerable findings as one diffuse set, put that whole set in a single group.
+
+Every mention id must appear in exactly one group in category_groups, and in exactly one group in entity_groups. A group may hold one mention alone.
+
+Reply with a single JSON object and nothing else: no headings, no explanation, no markdown fences. The object must have exactly two keys, "category_groups" and "entity_groups". Each value is a list of lists of mention ids.

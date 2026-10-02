@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "h1bench"
+version = "1.0.0"
+description = "H1 hidden-identity benchmark: score category and entity linking on synthetic oracle-frame worlds."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Sher Partap Singh" }]
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+openai = ["openai>=1.0"]
+scipy = ["scipy"]
+test = ["pytest"]
+
+[project.scripts]
+h1bench = "h1bench.cli:main"
+
+[tool.setuptools]
+packages = ["h1bench"]
+
+[tool.setuptools.package-data]
+h1bench = ["prompts/*.txt", "smoke_data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

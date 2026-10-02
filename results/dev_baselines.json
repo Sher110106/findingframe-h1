@@ -1,0 +1,6198 @@
+{
+ "v1": {
+  "one_group_per_mention": {
+   "by_scenario_family": {
+    "absent_uncertain_negated": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.06426114890400608,
+       0.06998452459687582
+      ],
+      "mean": 0.06710348954396582
+     },
+     "category_f1": {
+      "ci95": [
+       0.2519444444444444,
+       0.2631349206349206
+      ],
+      "mean": 0.25753968253968224
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.1444047619047619,
+       0.15178571428571427
+      ],
+      "mean": 0.14809523809523795
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.06439232174351224,
+       0.06989654195011342
+      ],
+      "mean": 0.06710348954396582
+     },
+     "entity_f1": {
+      "ci95": [
+       0.2521825396825396,
+       0.2630555555555555
+      ],
+      "mean": 0.25753968253968224
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.1445833333333333,
+       0.15172619047619043
+      ],
+      "mean": 0.14809523809523795
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "descriptor_ambiguity_control": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.06589537666918623,
+       0.07123582766439912
+      ],
+      "mean": 0.06859567901234576
+     },
+     "category_f1": {
+      "ci95": [
+       0.2553174603174602,
+       0.2657142857142856
+      ],
+      "mean": 0.26055555555555526
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.14660714285714285,
+       0.15345238095238092
+      ],
+      "mean": 0.15005952380952364
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.06589537666918621,
+       0.07117567397329307
+      ],
+      "mean": 0.06859567901234576
+     },
+     "entity_f1": {
+      "ci95": [
+       0.2552777777777777,
+       0.2656349206349206
+      ],
+      "mean": 0.26055555555555526
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.1466071428571428,
+       0.15339285714285714
+      ],
+      "mean": 0.15005952380952364
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "laterality_change": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.1906000000000001,
+       0.20860000000000006
+      ],
+      "mean": 0.19960000000000008
+     },
+     "category_f1": {
+      "ci95": [
+       0.43399999999999983,
+       0.4539999999999998
+      ],
+      "mean": 0.44399999999999956
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.2783333333333333,
+       0.29499999999999993
+      ],
+      "mean": 0.2866666666666665
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.1906000000000001,
+       0.20860000000000006
+      ],
+      "mean": 0.19960000000000008
+     },
+     "entity_f1": {
+      "ci95": [
+       0.43399999999999994,
+       0.4539999999999998
+      ],
+      "mean": 0.44399999999999956
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.2783333333333334,
+       0.29499999999999993
+      ],
+      "mean": 0.2866666666666665
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "measurement_temporal": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.06582435752078614,
+       0.07114334923784334
+      ],
+      "mean": 0.06846450617283958
+     },
+     "category_f1": {
+      "ci95": [
+       0.2551190476190475,
+       0.26543750000000005
+      ],
+      "mean": 0.26027777777777755
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.14648809523809522,
+       0.15327380952380956
+      ],
+      "mean": 0.14988095238095225
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.06581349206349209,
+       0.07116480851599905
+      ],
+      "mean": 0.06846450617283958
+     },
+     "entity_f1": {
+      "ci95": [
+       0.25503968253968246,
+       0.26555555555555554
+      ],
+      "mean": 0.26027777777777755
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.14642857142857144,
+       0.15333333333333335
+      ],
+      "mean": 0.14988095238095225
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "missing_conflicting_slots": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.06660052910052912,
+       0.07200113378684811
+      ],
+      "mean": 0.06936098513479473
+     },
+     "category_f1": {
+      "ci95": [
+       0.2565476190476191,
+       0.2671428571428571
+      ],
+      "mean": 0.26198412698412676
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.14744047619047618,
+       0.15440476190476188
+      ],
+      "mean": 0.1510119047619046
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.06664981733434118,
+       0.0720612874779542
+      ],
+      "mean": 0.06936098513479473
+     },
+     "entity_f1": {
+      "ci95": [
+       0.2566269841269841,
+       0.26722222222222225
+      ],
+      "mean": 0.26198412698412676
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.1475,
+       0.1544642857142857
+      ],
+      "mean": 0.1510119047619046
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "paraphrase_same_anatomy": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.0686666981607458,
+       0.07374480347694637
+      ],
+      "mean": 0.07123582766439916
+     },
+     "category_f1": {
+      "ci95": [
+       0.2606746031746033,
+       0.27059523809523806
+      ],
+      "mean": 0.2657142857142855
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.15011904761904765,
+       0.15666666666666665
+      ],
+      "mean": 0.1534523809523808
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.0686666981607458,
+       0.07374480347694638
+      ],
+      "mean": 0.07123582766439916
+     },
+     "entity_f1": {
+      "ci95": [
+       0.2607142857142857,
+       0.2705952380952381
+      ],
+      "mean": 0.2657142857142855
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.15017857142857138,
+       0.15666666666666665
+      ],
+      "mean": 0.1534523809523808
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "report_order_permutations": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.12540191373771736,
+       0.15654539131393302
+      ],
+      "mean": 0.14075791761148904
+     },
+     "category_f1": {
+      "ci95": [
+       0.33869623015873007,
+       0.3807075396825396
+      ],
+      "mean": 0.3595476190476187
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.20868898809523803,
+       0.2405357142857143
+      ],
+      "mean": 0.2244642857142856
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.12531892652431342,
+       0.1563954755605946
+      ],
+      "mean": 0.14075791761148904
+     },
+     "entity_f1": {
+      "ci95": [
+       0.33873710317460304,
+       0.38053313492063473
+      ],
+      "mean": 0.3595476190476187
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.208688988095238,
+       0.2402991071428571
+      ],
+      "mean": 0.2244642857142856
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "set_level_innumerable": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.0676774691358025,
+       0.0729084782060973
+      ],
+      "mean": 0.07032848324514998
+     },
+     "category_f1": {
+      "ci95": [
+       0.2586894841269839,
+       0.2689285714285713
+      ],
+      "mean": 0.26388888888888856
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.1488095238095238,
+       0.15559523809523804
+      ],
+      "mean": 0.1522619047619046
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": null,
+     "entity_f1": null,
+     "entity_merge_pair_rate": null,
+     "entity_muc_f1": null,
+     "entity_n_worlds": 0,
+     "entity_precision": null,
+     "entity_recall": null,
+     "entity_split_pair_rate": null,
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "tied_events": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.06357268833459313,
+       0.07002267573696148
+      ],
+      "mean": 0.06679768203577736
+     },
+     "category_f1": {
+      "ci95": [
+       0.25015873015873,
+       0.26285714285714273
+      ],
+      "mean": 0.2565079365079362
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.1433333333333333,
+       0.15166666666666662
+      ],
+      "mean": 0.14749999999999985
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.19960000000000008,
+       0.21760000000000002
+      ],
+      "mean": 0.20860000000000006
+     },
+     "entity_f1": {
+      "ci95": [
+       0.4439999999999999,
+       0.46399999999999975
+      ],
+      "mean": 0.4539999999999996
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.2866666666666666,
+       0.30333333333333323
+      ],
+      "mean": 0.2949999999999997
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    }
+   },
+   "draws": 10000,
+   "overall": {
+    "category_ceaf_e_f1": {
+     "ci95": [
+      0.08775510225077664,
+      0.09491173626858122
+     ],
+     "mean": 0.09136050782452831
+    },
+    "category_f1": {
+     "ci95": [
+      0.2871675264550271,
+      0.2972090828924163
+     ],
+     "mean": 0.29222398589065224
+    },
+    "category_merge_pair_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "category_muc_f1": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "category_n_worlds": 900,
+    "category_precision": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "category_recall": {
+     "ci95": [
+      0.16995998677248658,
+      0.1774140211640209
+     ],
+     "mean": 0.17371031746031684
+    },
+    "category_split_pair_rate": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "entity_ceaf_e_f1": {
+     "ci95": [
+      0.10686603251369978,
+      0.1165731685208804
+     ],
+     "mean": 0.11171480064247914
+    },
+    "entity_f1": {
+     "ci95": [
+      0.3137885416666673,
+      0.32709523809523844
+     ],
+     "mean": 0.3204523809523815
+    },
+    "entity_merge_pair_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "entity_muc_f1": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "entity_n_worlds": 800,
+    "entity_precision": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "entity_recall": {
+     "ci95": [
+      0.1898359375000002,
+      0.19982886904761915
+     ],
+     "mean": 0.19482886904762026
+    },
+    "entity_split_pair_rate": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "n_worlds": 900,
+    "unresolved_mention_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    }
+   },
+   "seed": 42,
+   "worlds_answered": 900,
+   "worlds_total": 900
+  },
+  "one_group_per_world": {
+   "by_scenario_family": {
+    "absent_uncertain_negated": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "descriptor_ambiguity_control": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "laterality_change": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.4444444444444438,
+       0.4444444444444442
+      ],
+      "mean": 0.44444444444444353
+     },
+     "category_f1": {
+      "ci95": [
+       0.6666666666666662,
+       0.6666666666666669
+      ],
+      "mean": 0.6666666666666659
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.5811428571428574,
+       0.5868571428571429
+      ],
+      "mean": 0.5840000000000001
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.9046153846153838,
+       0.9114529914529903
+      ],
+      "mean": 0.9080341880341861
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       0.5,
+       0.5
+      ],
+      "mean": 0.5
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.4444444444444438,
+       0.4444444444444442
+      ],
+      "mean": 0.44444444444444353
+     },
+     "entity_f1": {
+      "ci95": [
+       0.6666666666666662,
+       0.6666666666666669
+      ],
+      "mean": 0.6666666666666659
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.5811428571428575,
+       0.586857142857143
+      ],
+      "mean": 0.5840000000000001
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.9046153846153837,
+       0.9114529914529902
+      ],
+      "mean": 0.9080341880341861
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       0.5,
+       0.5
+      ],
+      "mean": 0.5
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "measurement_temporal": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "missing_conflicting_slots": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "paraphrase_same_anatomy": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "report_order_permutations": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.6611111111111109,
+       0.7722222222222218
+      ],
+      "mean": 0.7166666666666661
+     },
+     "category_f1": {
+      "ci95": [
+       0.7966666666666669,
+       0.8633333333333333
+      ],
+      "mean": 0.8300000000000005
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.24171428571428571,
+       0.3580000000000001
+      ],
+      "mean": 0.299714285714286
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.9411111111111105,
+       0.9604294871794866
+      ],
+      "mean": 0.9508547008546999
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       0.695,
+       0.795
+      ],
+      "mean": 0.745
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.6611111111111109,
+       0.7722222222222218
+      ],
+      "mean": 0.7166666666666661
+     },
+     "entity_f1": {
+      "ci95": [
+       0.7966666666666669,
+       0.8633333333333334
+      ],
+      "mean": 0.8300000000000005
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.2411428571428572,
+       0.3574357142857143
+      ],
+      "mean": 0.299714285714286
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.9410256410256406,
+       0.9606837606837603
+      ],
+      "mean": 0.9508547008546999
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       0.695,
+       0.795
+      ],
+      "mean": 0.745
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "set_level_innumerable": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": null,
+     "entity_f1": null,
+     "entity_merge_pair_rate": null,
+     "entity_muc_f1": null,
+     "entity_n_worlds": 0,
+     "entity_precision": null,
+     "entity_recall": null,
+     "entity_split_pair_rate": null,
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "tied_events": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.4444444444444438,
+       0.4444444444444442
+      ],
+      "mean": 0.44444444444444353
+     },
+     "entity_f1": {
+      "ci95": [
+       0.6666666666666662,
+       0.6666666666666669
+      ],
+      "mean": 0.6666666666666659
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.5840000000000003,
+       0.5897142857142859
+      ],
+      "mean": 0.5868571428571433
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.9011965811965804,
+       0.9080341880341869
+      ],
+      "mean": 0.9046153846153827
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       0.5,
+       0.5
+      ],
+      "mean": 0.5
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    }
+   },
+   "draws": 10000,
+   "overall": {
+    "category_ceaf_e_f1": {
+     "ci95": [
+      0.8932098765432113,
+      0.9203703703703714
+     ],
+     "mean": 0.9067901234567922
+    },
+    "category_f1": {
+     "ci95": [
+      0.9359259259259258,
+      0.9522222222222213
+     ],
+     "mean": 0.9440740740740714
+    },
+    "category_merge_pair_rate": {
+     "ci95": [
+      0.08403095238095232,
+      0.11228571428571421
+     ],
+     "mean": 0.098190476190476
+    },
+    "category_muc_f1": {
+     "ci95": [
+      0.9820227920227924,
+      0.9866191832858504
+     ],
+     "mean": 0.9843209876543217
+    },
+    "category_n_worlds": 900,
+    "category_precision": {
+     "ci95": [
+      0.9038888888888889,
+      0.9283333333333333
+     ],
+     "mean": 0.9161111111111111
+    },
+    "category_recall": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "category_split_pair_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "entity_ceaf_e_f1": {
+     "ci95": [
+      0.807638888888892,
+      0.8437500000000026
+     ],
+     "mean": 0.8256944444444484
+    },
+    "entity_f1": {
+     "ci95": [
+      0.8845833333333317,
+      0.906249999999998
+     ],
+     "mean": 0.8954166666666589
+    },
+    "entity_merge_pair_rate": {
+     "ci95": [
+      0.16492767857142837,
+      0.20296517857142843
+     ],
+     "mean": 0.18382142857142805
+    },
+    "entity_muc_f1": {
+     "ci95": [
+      0.9672967414529916,
+      0.9735470085470089
+     ],
+     "mean": 0.9704380341880358
+    },
+    "entity_n_worlds": 800,
+    "entity_precision": {
+     "ci95": [
+      0.826875,
+      0.859375
+     ],
+     "mean": 0.843125
+    },
+    "entity_recall": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "entity_split_pair_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "n_worlds": 900,
+    "unresolved_mention_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    }
+   },
+   "seed": 42,
+   "worlds_answered": 900,
+   "worlds_total": 900
+  },
+  "raw_surface_equality": {
+   "by_scenario_family": {
+    "absent_uncertain_negated": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "descriptor_ambiguity_control": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "laterality_change": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.4444444444444438,
+       0.4444444444444442
+      ],
+      "mean": 0.44444444444444353
+     },
+     "category_f1": {
+      "ci95": [
+       0.6666666666666662,
+       0.6666666666666669
+      ],
+      "mean": 0.6666666666666659
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.5811428571428574,
+       0.5868571428571429
+      ],
+      "mean": 0.5840000000000001
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.9046153846153838,
+       0.9114529914529903
+      ],
+      "mean": 0.9080341880341861
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       0.5,
+       0.5
+      ],
+      "mean": 0.5
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.4444444444444438,
+       0.4444444444444442
+      ],
+      "mean": 0.44444444444444353
+     },
+     "entity_f1": {
+      "ci95": [
+       0.6666666666666662,
+       0.6666666666666669
+      ],
+      "mean": 0.6666666666666659
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.5811428571428575,
+       0.586857142857143
+      ],
+      "mean": 0.5840000000000001
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.9046153846153837,
+       0.9114529914529902
+      ],
+      "mean": 0.9080341880341861
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       0.5,
+       0.5
+      ],
+      "mean": 0.5
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "measurement_temporal": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "missing_conflicting_slots": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "paraphrase_same_anatomy": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "report_order_permutations": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.9444444444444444,
+       0.9944444444444445
+      ],
+      "mean": 0.9722222222222221
+     },
+     "category_f1": {
+      "ci95": [
+       0.9666666666666667,
+       0.9966666666666666
+      ],
+      "mean": 0.9833333333333333
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.006,
+       0.057999999999999996
+      ],
+      "mean": 0.02914285714285714
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.9910256410256408,
+       0.9988888888888888
+      ],
+      "mean": 0.9954700854700854
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       0.95,
+       0.995
+      ],
+      "mean": 0.975
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.9444444444444444,
+       0.9944444444444445
+      ],
+      "mean": 0.9722222222222221
+     },
+     "entity_f1": {
+      "ci95": [
+       0.9666666666666667,
+       0.9966666666666666
+      ],
+      "mean": 0.9833333333333333
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.006,
+       0.05799999999999999
+      ],
+      "mean": 0.02914285714285714
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.9910256410256411,
+       0.9988888888888888
+      ],
+      "mean": 0.9954700854700854
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       0.95,
+       0.995
+      ],
+      "mean": 0.975
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "set_level_innumerable": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": null,
+     "entity_f1": null,
+     "entity_merge_pair_rate": null,
+     "entity_muc_f1": null,
+     "entity_n_worlds": 0,
+     "entity_precision": null,
+     "entity_recall": null,
+     "entity_split_pair_rate": null,
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "tied_events": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_n_worlds": 100,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.4444444444444438,
+       0.4444444444444442
+      ],
+      "mean": 0.44444444444444353
+     },
+     "entity_f1": {
+      "ci95": [
+       0.6666666666666662,
+       0.6666666666666669
+      ],
+      "mean": 0.6666666666666659
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.5840000000000003,
+       0.5897142857142859
+      ],
+      "mean": 0.5868571428571433
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.9011965811965804,
+       0.9080341880341869
+      ],
+      "mean": 0.9046153846153827
+     },
+     "entity_n_worlds": 100,
+     "entity_precision": {
+      "ci95": [
+       0.5,
+       0.5
+      ],
+      "mean": 0.5
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 100,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    }
+   },
+   "draws": 10000,
+   "overall": {
+    "category_ceaf_e_f1": {
+     "ci95": [
+      0.9234567901234574,
+      0.946296296296297
+     ],
+     "mean": 0.9351851851851867
+    },
+    "category_f1": {
+     "ci95": [
+      0.9540740740740741,
+      0.9677777777777777
+     ],
+     "mean": 0.9611111111111104
+    },
+    "category_merge_pair_rate": {
+     "ci95": [
+      0.056285714285714286,
+      0.08044444444444443
+     ],
+     "mean": 0.06812698412698413
+    },
+    "category_muc_f1": {
+     "ci95": [
+      0.9872839506172841,
+      0.9911965811965812
+     ],
+     "mean": 0.9892782526115863
+    },
+    "category_n_worlds": 900,
+    "category_precision": {
+     "ci95": [
+      0.9311111111111111,
+      0.9516666666666667
+     ],
+     "mean": 0.9416666666666667
+    },
+    "category_recall": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "category_split_pair_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "entity_ceaf_e_f1": {
+     "ci95": [
+      0.8402777777777802,
+      0.875000000000002
+     ],
+     "mean": 0.8576388888888922
+    },
+    "entity_f1": {
+     "ci95": [
+      0.904166666666666,
+      0.9249999999999988
+     ],
+     "mean": 0.9145833333333278
+    },
+    "entity_merge_pair_rate": {
+     "ci95": [
+      0.1316785714285713,
+      0.16814285714285684
+     ],
+     "mean": 0.14999999999999952
+    },
+    "entity_muc_f1": {
+     "ci95": [
+      0.9730982905982914,
+      0.9789746260683767
+     ],
+     "mean": 0.9760149572649585
+    },
+    "entity_n_worlds": 800,
+    "entity_precision": {
+     "ci95": [
+      0.85625,
+      0.8875
+     ],
+     "mean": 0.871875
+    },
+    "entity_recall": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "entity_split_pair_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "n_worlds": 900,
+    "unresolved_mention_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    }
+   },
+   "seed": 42,
+   "worlds_answered": 900,
+   "worlds_total": 900
+  }
+ },
+ "v2-pilot": {
+  "one_group_per_mention": {
+   "by_scenario_family": {
+    "descriptor_pair_with_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.1111111111111111,
+       0.11428571428571428
+      ],
+      "mean": 0.11216931216931218
+     },
+     "category_f1": {
+      "ci95": [
+       0.3076923076923077,
+       0.3333333333333333
+      ],
+      "mean": 0.3162393162393163
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.1818181818181818,
+       0.20000000000000004
+      ],
+      "mean": 0.1878787878787879
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.18571428571428572,
+       0.2153846153846154
+      ],
+      "mean": 0.1956043956043956
+     },
+     "entity_f1": {
+      "ci95": [
+       0.42857142857142855,
+       0.4615384615384615
+      ],
+      "mean": 0.43956043956043955
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.2727272727272727,
+       0.3
+      ],
+      "mean": 0.2818181818181818
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "episode_reuse_with_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.09999999999999999,
+       0.16666666666666666
+      ],
+      "mean": 0.13333333333333333
+     },
+     "category_f1": {
+      "ci95": [
+       0.3076923076923077,
+       0.4000000000000001
+      ],
+      "mean": 0.35710955710955705
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.1818181818181818,
+       0.25
+      ],
+      "mean": 0.218013468013468
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.18571428571428572,
+       0.303030303030303
+      ],
+      "mean": 0.24995189995189993
+     },
+     "entity_f1": {
+      "ci95": [
+       0.42857142857142855,
+       0.5454545454545454
+      ],
+      "mean": 0.49134199134199136
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.2727272727272727,
+       0.375
+      ],
+      "mean": 0.327020202020202
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "granularity_with_laterality_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.09999999999999999,
+       0.13333333333333336
+      ],
+      "mean": 0.11944444444444445
+     },
+     "category_f1": {
+      "ci95": [
+       0.3076923076923077,
+       0.3636363636363636
+      ],
+      "mean": 0.3348873348873349
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.1818181818181818,
+       0.2222222222222222
+      ],
+      "mean": 0.20134680134680136
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.09999999999999999,
+       0.13333333333333336
+      ],
+      "mean": 0.11944444444444445
+     },
+     "entity_f1": {
+      "ci95": [
+       0.3076923076923077,
+       0.3636363636363636
+      ],
+      "mean": 0.3348873348873349
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.1818181818181818,
+       0.2222222222222222
+      ],
+      "mean": 0.20134680134680136
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "granularity_with_organ_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.08333333333333333,
+       0.14285714285714285
+      ],
+      "mean": 0.11706349206349205
+     },
+     "category_f1": {
+      "ci95": [
+       0.2857142857142857,
+       0.3636363636363636
+      ],
+      "mean": 0.32756132756132755
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.16666666666666666,
+       0.2222222222222222
+      ],
+      "mean": 0.1962962962962963
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.08333333333333333,
+       0.14285714285714285
+      ],
+      "mean": 0.11706349206349205
+     },
+     "entity_f1": {
+      "ci95": [
+       0.2857142857142857,
+       0.3636363636363636
+      ],
+      "mean": 0.32756132756132755
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.16666666666666666,
+       0.2222222222222222
+      ],
+      "mean": 0.1962962962962963
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "laterality_pair_same_type_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.08333333333333333,
+       0.11428571428571428
+      ],
+      "mean": 0.10396825396825397
+     },
+     "category_f1": {
+      "ci95": [
+       0.2857142857142857,
+       0.3333333333333333
+      ],
+      "mean": 0.3174603174603175
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.16666666666666666,
+       0.20000000000000004
+      ],
+      "mean": 0.18888888888888888
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.08333333333333333,
+       0.11428571428571428
+      ],
+      "mean": 0.10396825396825397
+     },
+     "entity_f1": {
+      "ci95": [
+       0.2857142857142857,
+       0.3333333333333333
+      ],
+      "mean": 0.3174603174603175
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.16666666666666666,
+       0.20000000000000004
+      ],
+      "mean": 0.18888888888888888
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "same_site_different_type_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.1111111111111111,
+       0.13333333333333336
+      ],
+      "mean": 0.1195767195767196
+     },
+     "category_f1": {
+      "ci95": [
+       0.3333333333333333,
+       0.3636363636363636
+      ],
+      "mean": 0.3434343434343434
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.20000000000000004,
+       0.2222222222222222
+      ],
+      "mean": 0.2074074074074074
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.1111111111111111,
+       0.13333333333333336
+      ],
+      "mean": 0.1195767195767196
+     },
+     "entity_f1": {
+      "ci95": [
+       0.3333333333333333,
+       0.3636363636363636
+      ],
+      "mean": 0.3434343434343434
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.20000000000000004,
+       0.2222222222222222
+      ],
+      "mean": 0.2074074074074074
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "same_word_different_organ_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.16000000000000003,
+       0.18571428571428572
+      ],
+      "mean": 0.1700529100529101
+     },
+     "category_f1": {
+      "ci95": [
+       0.4000000000000001,
+       0.42857142857142855
+      ],
+      "mean": 0.40952380952380957
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.25,
+       0.2727272727272727
+      ],
+      "mean": 0.25757575757575757
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.16000000000000003,
+       0.18571428571428572
+      ],
+      "mean": 0.1700529100529101
+     },
+     "entity_f1": {
+      "ci95": [
+       0.4000000000000001,
+       0.42857142857142855
+      ],
+      "mean": 0.40952380952380957
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.25,
+       0.2727272727272727
+      ],
+      "mean": 0.25757575757575757
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "simultaneous_distinct_with_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.08888888888888886,
+       0.14285714285714285
+      ],
+      "mean": 0.11428571428571428
+     },
+     "category_f1": {
+      "ci95": [
+       0.2857142857142857,
+       0.3636363636363636
+      ],
+      "mean": 0.31901431901431904
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_recall": {
+      "ci95": [
+       0.16666666666666666,
+       0.2222222222222222
+      ],
+      "mean": 0.19023569023569023
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.16000000000000003,
+       0.25
+      ],
+      "mean": 0.1985714285714286
+     },
+     "entity_f1": {
+      "ci95": [
+       0.4000000000000001,
+       0.5
+      ],
+      "mean": 0.44285714285714284
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_recall": {
+      "ci95": [
+       0.25,
+       0.3333333333333333
+      ],
+      "mean": 0.2853535353535353
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    }
+   },
+   "draws": 10000,
+   "overall": {
+    "category_ceaf_e_f1": {
+     "ci95": [
+      0.1136438492063492,
+      0.1344284060846561
+     ],
+     "mean": 0.12373677248677249
+    },
+    "category_f1": {
+     "ci95": [
+      0.32562437562437563,
+      0.35657120657120656
+     ],
+     "mean": 0.34065379065379053
+    },
+    "category_merge_pair_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "category_muc_f1": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "category_n_worlds": 24,
+    "category_precision": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "category_recall": {
+     "ci95": [
+      0.19497001262626262,
+      0.21771938131313132
+     ],
+     "mean": 0.20595538720538722
+    },
+    "category_split_pair_rate": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "entity_ceaf_e_f1": {
+     "ci95": [
+      0.13835631613756613,
+      0.18235547380859876
+     ],
+     "mean": 0.15927919302919305
+    },
+    "entity_f1": {
+     "ci95": [
+      0.3622015484515484,
+      0.41605373792873795
+     ],
+     "mean": 0.3883283383283383
+    },
+    "entity_merge_pair_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "entity_muc_f1": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "entity_n_worlds": 24,
+    "entity_precision": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "entity_recall": {
+     "ci95": [
+      0.22270570286195288,
+      0.26517440025252514
+     ],
+     "mean": 0.24321338383838378
+    },
+    "entity_split_pair_rate": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "n_worlds": 24,
+    "unresolved_mention_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    }
+   },
+   "seed": 42,
+   "worlds_answered": 24,
+   "worlds_total": 24
+  },
+  "one_group_per_world": {
+   "by_scenario_family": {
+    "descriptor_pair_with_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.5,
+       0.5614035087719298
+      ],
+      "mean": 0.5409356725146198
+     },
+     "category_f1": {
+      "ci95": [
+       0.6842105263157895,
+       0.7525773195876289
+      ],
+      "mean": 0.7297883884970157
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.43636363636363634,
+       0.5333333333333333
+      ],
+      "mean": 0.46868686868686865
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.9411764705882352,
+       0.9473684210526315
+      ],
+      "mean": 0.9453044375644994
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.52,
+       0.6033057851239669
+      ],
+      "mean": 0.5755371900826446
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.26666666666666666,
+       0.2857142857142857
+      ],
+      "mean": 0.273015873015873
+     },
+     "entity_f1": {
+      "ci95": [
+       0.5061728395061729,
+       0.5074626865671642
+      ],
+      "mean": 0.5066027885265033
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.7272727272727272,
+       0.7333333333333333
+      ],
+      "mean": 0.7292929292929292
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.8750000000000001,
+       0.888888888888889
+      ],
+      "mean": 0.8842592592592594
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.3388429752066116,
+       0.34
+      ],
+      "mean": 0.33922865013774106
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "episode_reuse_with_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.4761904761904762,
+       0.5185185185185185
+      ],
+      "mean": 0.5025098358431691
+     },
+     "category_f1": {
+      "ci95": [
+       0.6721311475409836,
+       0.6989247311827956
+      ],
+      "mean": 0.6883111432480624
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.509090909090909,
+       0.5555555555555556
+      ],
+      "mean": 0.5334535834535834
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.923076923076923,
+       0.9473684210526315
+      ],
+      "mean": 0.9345928924876293
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.5061728395061729,
+       0.5371900826446281
+      ],
+      "mean": 0.524870974050267
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.26666666666666666,
+       0.30769230769230765
+      ],
+      "mean": 0.2823620823620823
+     },
+     "entity_f1": {
+      "ci95": [
+       0.5061728395061729,
+       0.5272727272727272
+      ],
+      "mean": 0.5150244912518814
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.7222222222222222,
+       0.75
+      ],
+      "mean": 0.7331649831649831
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.8333333333333334,
+       0.888888888888889
+      ],
+      "mean": 0.8597883597883597
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.3388429752066116,
+       0.35802469135802467
+      ],
+      "mean": 0.34687255552154544
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "granularity_with_laterality_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.4761904761904762,
+       0.5490196078431372
+      ],
+      "mean": 0.5145762008507107
+     },
+     "category_f1": {
+      "ci95": [
+       0.6721311475409836,
+       0.7341772151898733
+      ],
+      "mean": 0.7017443646378841
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.4666666666666666,
+       0.5555555555555556
+      ],
+      "mean": 0.5104377104377105
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.9333333333333332,
+       0.9473684210526315
+      ],
+      "mean": 0.9406260749914
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.5061728395061729,
+       0.58
+      ],
+      "mean": 0.5411209740502669
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.4761904761904762,
+       0.5490196078431372
+      ],
+      "mean": 0.5145762008507107
+     },
+     "entity_f1": {
+      "ci95": [
+       0.6721311475409836,
+       0.7341772151898733
+      ],
+      "mean": 0.7017443646378841
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.4666666666666666,
+       0.5555555555555556
+      ],
+      "mean": 0.5104377104377105
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.9333333333333332,
+       0.9473684210526315
+      ],
+      "mean": 0.9406260749914
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.5061728395061729,
+       0.58
+      ],
+      "mean": 0.5411209740502669
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "granularity_with_organ_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.49122807017543857,
+       0.5490196078431372
+      ],
+      "mean": 0.5245270037839697
+     },
+     "category_f1": {
+      "ci95": [
+       0.6788990825688076,
+       0.7341772151898733
+      ],
+      "mean": 0.709120670681465
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.4666666666666666,
+       0.5303030303030303
+      ],
+      "mean": 0.49898989898989904
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.9333333333333332,
+       0.9523809523809522
+      ],
+      "mean": 0.9422969187675069
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.513888888888889,
+       0.58
+      ],
+      "mean": 0.5498148148148149
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.49122807017543857,
+       0.5490196078431372
+      ],
+      "mean": 0.5245270037839697
+     },
+     "entity_f1": {
+      "ci95": [
+       0.6788990825688076,
+       0.7341772151898733
+      ],
+      "mean": 0.709120670681465
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.4666666666666666,
+       0.5303030303030303
+      ],
+      "mean": 0.49898989898989904
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.9333333333333332,
+       0.9523809523809522
+      ],
+      "mean": 0.9422969187675069
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.513888888888889,
+       0.58
+      ],
+      "mean": 0.5498148148148149
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "laterality_pair_same_type_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.49122807017543857,
+       0.5
+      ],
+      "mean": 0.49707602339181284
+     },
+     "category_f1": {
+      "ci95": [
+       0.6788990825688076,
+       0.6842105263157895
+      ],
+      "mean": 0.6824400450667955
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.5303030303030303,
+       0.5333333333333333
+      ],
+      "mean": 0.5323232323232322
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.9411764705882352,
+       0.9523809523809522
+      ],
+      "mean": 0.9449112978524742
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.513888888888889,
+       0.52
+      ],
+      "mean": 0.517962962962963
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.49122807017543857,
+       0.5
+      ],
+      "mean": 0.49707602339181284
+     },
+     "entity_f1": {
+      "ci95": [
+       0.6788990825688076,
+       0.6842105263157895
+      ],
+      "mean": 0.6824400450667955
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.5303030303030303,
+       0.5333333333333333
+      ],
+      "mean": 0.5323232323232322
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.9411764705882352,
+       0.9523809523809522
+      ],
+      "mean": 0.9449112978524742
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.513888888888889,
+       0.52
+      ],
+      "mean": 0.517962962962963
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "same_site_different_type_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.4444444444444444,
+       0.5
+      ],
+      "mean": 0.47354497354497355
+     },
+     "category_f1": {
+      "ci95": [
+       0.6666666666666666,
+       0.6842105263157895
+      ],
+      "mean": 0.6743361135078132
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.5333333333333333,
+       0.5555555555555556
+      ],
+      "mean": 0.5481481481481482
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.9333333333333332,
+       0.9411764705882352
+      ],
+      "mean": 0.9385620915032679
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.5,
+       0.52
+      ],
+      "mean": 0.5087242798353909
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.4444444444444444,
+       0.5
+      ],
+      "mean": 0.47354497354497355
+     },
+     "entity_f1": {
+      "ci95": [
+       0.6666666666666666,
+       0.6842105263157895
+      ],
+      "mean": 0.6743361135078132
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.5333333333333333,
+       0.5555555555555556
+      ],
+      "mean": 0.5481481481481482
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.9333333333333332,
+       0.9411764705882352
+      ],
+      "mean": 0.9385620915032679
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.5,
+       0.52
+      ],
+      "mean": 0.5087242798353909
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "same_word_different_organ_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.25,
+       0.29411764705882354
+      ],
+      "mean": 0.2702614379084967
+     },
+     "category_f1": {
+      "ci95": [
+       0.5,
+       0.5154639175257733
+      ],
+      "mean": 0.507212252343982
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.7121212121212123,
+       0.7272727272727272
+      ],
+      "mean": 0.7222222222222223
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.888888888888889,
+       0.9
+      ],
+      "mean": 0.8962962962962964
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.3333333333333333,
+       0.34722222222222227
+      ],
+      "mean": 0.3397995102540557
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.25,
+       0.29411764705882354
+      ],
+      "mean": 0.2702614379084967
+     },
+     "entity_f1": {
+      "ci95": [
+       0.5,
+       0.5154639175257733
+      ],
+      "mean": 0.507212252343982
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.7121212121212123,
+       0.7272727272727272
+      ],
+      "mean": 0.7222222222222223
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.888888888888889,
+       0.9
+      ],
+      "mean": 0.8962962962962964
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.3333333333333333,
+       0.34722222222222227
+      ],
+      "mean": 0.3397995102540557
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "simultaneous_distinct_with_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.5333333333333333,
+       0.5614035087719298
+      ],
+      "mean": 0.5426900584795321
+     },
+     "category_f1": {
+      "ci95": [
+       0.7142857142857143,
+       0.7525773195876289
+      ],
+      "mean": 0.7270495827196859
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.43636363636363634,
+       0.5
+      ],
+      "mean": 0.47373737373737373
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.9333333333333332,
+       0.9523809523809522
+      ],
+      "mean": 0.9443609022556391
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.5555555555555555,
+       0.6033057851239669
+      ],
+      "mean": 0.5714722987450259
+     },
+     "category_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.25,
+       0.26666666666666666
+      ],
+      "mean": 0.25555555555555554
+     },
+     "entity_f1": {
+      "ci95": [
+       0.5,
+       0.5061728395061729
+      ],
+      "mean": 0.5020576131687243
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.7272727272727272,
+       0.75
+      ],
+      "mean": 0.7348484848484849
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.8571428571428571,
+       0.9
+      ],
+      "mean": 0.882010582010582
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.3333333333333333,
+       0.3388429752066116
+      ],
+      "mean": 0.3351698806244261
+     },
+     "entity_recall": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "mean": 1.0
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    }
+   },
+   "draws": 10000,
+   "overall": {
+    "category_ceaf_e_f1": {
+     "ci95": [
+      0.44592934036900106,
+      0.5137459440403841
+     ],
+     "mean": 0.4832651507896606
+    },
+    "category_f1": {
+     "ci95": [
+      0.6474678806717266,
+      0.7021563369308301
+     ],
+     "mean": 0.6775003200878379
+    },
+    "category_merge_pair_rate": {
+     "ci95": [
+      0.5068753006253007,
+      0.5702444835257335
+     ],
+     "mean": 0.5359998797498797
+    },
+    "category_muc_f1": {
+     "ci95": [
+      0.9287260068219821,
+      0.9419563205399117
+     ],
+     "mean": 0.935868863964839
+    },
+    "category_n_worlds": 24,
+    "category_precision": {
+     "ci95": [
+      0.4843111579281876,
+      0.5428636747578903
+     ],
+     "mean": 0.5161628755994284
+    },
+    "category_recall": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "category_split_pair_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "entity_ceaf_e_f1": {
+     "ci95": [
+      0.3388474185987731,
+      0.43256651236333904
+     ],
+     "mean": 0.38636489380168443
+    },
+    "entity_f1": {
+     "ci95": [
+      0.5624798453857291,
+      0.6363453239929163
+     ],
+     "mean": 0.599817292398131
+    },
+    "entity_merge_pair_rate": {
+     "ci95": [
+      0.5848905723905724,
+      0.66893992003367
+     ],
+     "mean": 0.6261784511784511
+    },
+    "entity_muc_f1": {
+     "ci95": [
+      0.8970362167162188,
+      0.9240439845528856
+     ],
+     "mean": 0.9110938600586435
+    },
+    "entity_n_worlds": 24,
+    "entity_precision": {
+     "ci95": [
+      0.396434519994771,
+      0.472472418311907
+     ],
+     "mean": 0.4348367035251506
+    },
+    "entity_recall": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "mean": 1.0
+    },
+    "entity_split_pair_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    },
+    "n_worlds": 24,
+    "unresolved_mention_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    }
+   },
+   "seed": 42,
+   "worlds_answered": 24,
+   "worlds_total": 24
+  },
+  "raw_surface_equality": {
+   "by_scenario_family": {
+    "descriptor_pair_with_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.5333333333333333,
+       0.7076923076923075
+      ],
+      "mean": 0.6358974358974357
+     },
+     "category_f1": {
+      "ci95": [
+       0.6175438596491227,
+       0.7945205479452054
+      ],
+      "mean": 0.7299473951240354
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.4705882352941176
+      ],
+      "mean": 0.1568627450980392
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.7999999999999999,
+       0.9411764705882352
+      ],
+      "mean": 0.8941176470588236
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.7333333333333333,
+       1.0
+      ],
+      "mean": 0.9111111111111111
+     },
+     "category_recall": {
+      "ci95": [
+       0.5333333333333333,
+       0.6590909090909091
+      ],
+      "mean": 0.6095959595959596
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.4838709677419355,
+       0.5714285714285714
+      ],
+      "mean": 0.5238095238095238
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.6666666666666666,
+       0.746031746031746
+      ],
+      "mean": 0.707936507936508
+     },
+     "entity_f1": {
+      "ci95": [
+       0.6363636363636364,
+       0.6710445310896779
+      ],
+      "mean": 0.6523269390086547
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.5,
+       0.6470588235294118
+      ],
+      "mean": 0.5601307189542484
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.7142857142857143,
+       0.75
+      ],
+      "mean": 0.7380952380952381
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.6333333333333333,
+       0.6606060606060606
+      ],
+      "mean": 0.6434343434343434
+     },
+     "entity_recall": {
+      "ci95": [
+       0.6363636363636364,
+       0.6818181818181818
+      ],
+      "mean": 0.6616161616161617
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.4666666666666666,
+       0.5333333333333333
+      ],
+      "mean": 0.5
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "episode_reuse_with_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.42666666666666675,
+       0.742857142857143
+      ],
+      "mean": 0.5972486772486773
+     },
+     "category_f1": {
+      "ci95": [
+       0.6302874503388641,
+       0.9090909090909091
+      ],
+      "mean": 0.7530251097089143
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.5172413793103449
+      ],
+      "mean": 0.24648786717752236
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.7272727272727272,
+       0.923076923076923
+      ],
+      "mean": 0.8246263540381187
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.6590909090909091,
+       1.0
+      ],
+      "mean": 0.8308080808080809
+     },
+     "category_recall": {
+      "ci95": [
+       0.6038961038961039,
+       0.8333333333333334
+      ],
+      "mean": 0.6901875901875902
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.1875,
+       0.48148148148148145
+      ],
+      "mean": 0.3768399810066477
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.5357142857142857,
+       0.5857142857142857
+      ],
+      "mean": 0.552934102934103
+     },
+     "entity_f1": {
+      "ci95": [
+       0.5917667238421954,
+       0.7801418439716311
+      ],
+      "mean": 0.6825165311516175
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.4615384615384615,
+       0.7241379310344828
+      ],
+      "mean": 0.5804106493761666
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.6,
+       0.8333333333333334
+      ],
+      "mean": 0.7277777777777779
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.5227272727272727,
+       0.7333333333333333
+      ],
+      "mean": 0.6339646464646465
+     },
+     "entity_recall": {
+      "ci95": [
+       0.6818181818181818,
+       0.8333333333333334
+      ],
+      "mean": 0.7411616161616162
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.3,
+       0.4666666666666666
+      ],
+      "mean": 0.3984126984126984
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "granularity_with_laterality_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.5299145299145299,
+       0.5833333333333333
+      ],
+      "mean": 0.5544159544159545
+     },
+     "category_f1": {
+      "ci95": [
+       0.5111111111111111,
+       0.559322033898305
+      ],
+      "mean": 0.5309531314189525
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.5,
+       0.625
+      ],
+      "mean": 0.5616666666666666
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.7142857142857143,
+       0.7777777777777778
+      ],
+      "mean": 0.7473544973544973
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.5111111111111111,
+       0.6
+      ],
+      "mean": 0.5501683501683502
+     },
+     "category_recall": {
+      "ci95": [
+       0.5064935064935064,
+       0.5238095238095238
+      ],
+      "mean": 0.5138047138047138
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.5833333333333334,
+       0.625
+      ],
+      "mean": 0.6003086419753086
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.5299145299145299,
+       0.5833333333333333
+      ],
+      "mean": 0.5544159544159545
+     },
+     "entity_f1": {
+      "ci95": [
+       0.5111111111111111,
+       0.559322033898305
+      ],
+      "mean": 0.5309531314189525
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.5,
+       0.625
+      ],
+      "mean": 0.5616666666666666
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.7142857142857143,
+       0.7777777777777778
+      ],
+      "mean": 0.7473544973544973
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.5111111111111111,
+       0.6
+      ],
+      "mean": 0.5501683501683502
+     },
+     "entity_recall": {
+      "ci95": [
+       0.5064935064935064,
+       0.5238095238095238
+      ],
+      "mean": 0.5138047138047138
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.5833333333333334,
+       0.625
+      ],
+      "mean": 0.6003086419753086
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "granularity_with_organ_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.5,
+       0.5833333333333333
+      ],
+      "mean": 0.5444444444444444
+     },
+     "category_f1": {
+      "ci95": [
+       0.5142857142857142,
+       0.6586666666666667
+      ],
+      "mean": 0.5774248049502286
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.5,
+       0.5806451612903226
+      ],
+      "mean": 0.5420332355816226
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.75,
+       0.8571428571428571
+      ],
+      "mean": 0.8023809523809525
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.5142857142857142,
+       0.6190476190476191
+      ],
+      "mean": 0.5777777777777778
+     },
+     "category_recall": {
+      "ci95": [
+       0.5142857142857142,
+       0.7037037037037037
+      ],
+      "mean": 0.5805996472663139
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.4444444444444444,
+       0.5833333333333334
+      ],
+      "mean": 0.5361409796893668
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.5,
+       0.5833333333333333
+      ],
+      "mean": 0.5444444444444444
+     },
+     "entity_f1": {
+      "ci95": [
+       0.5142857142857142,
+       0.6586666666666667
+      ],
+      "mean": 0.5774248049502286
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.5,
+       0.5806451612903226
+      ],
+      "mean": 0.5420332355816226
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.75,
+       0.8571428571428571
+      ],
+      "mean": 0.8023809523809525
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.5142857142857142,
+       0.6190476190476191
+      ],
+      "mean": 0.5777777777777778
+     },
+     "entity_recall": {
+      "ci95": [
+       0.5142857142857142,
+       0.7037037037037037
+      ],
+      "mean": 0.5805996472663139
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.4444444444444444,
+       0.5833333333333334
+      ],
+      "mean": 0.5361409796893668
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "laterality_pair_same_type_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.36000000000000004,
+       0.5333333333333333
+      ],
+      "mean": 0.47555555555555556
+     },
+     "category_f1": {
+      "ci95": [
+       0.47266167082986393,
+       0.6031746031746031
+      ],
+      "mean": 0.5596702923930233
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.42857142857142855,
+       0.6
+      ],
+      "mean": 0.4857142857142857
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.631578947368421,
+       0.7999999999999999
+      ],
+      "mean": 0.743859649122807
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.5198412698412699,
+       0.7600000000000001
+      ],
+      "mean": 0.6799470899470901
+     },
+     "category_recall": {
+      "ci95": [
+       0.43333333333333335,
+       0.5
+      ],
+      "mean": 0.4777777777777778
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.6190476190476191,
+       0.6774193548387096
+      ],
+      "mean": 0.6385048643113159
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.36000000000000004,
+       0.5333333333333333
+      ],
+      "mean": 0.47555555555555556
+     },
+     "entity_f1": {
+      "ci95": [
+       0.47266167082986393,
+       0.6031746031746031
+      ],
+      "mean": 0.5596702923930233
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.42857142857142855,
+       0.6
+      ],
+      "mean": 0.4857142857142857
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.631578947368421,
+       0.7999999999999999
+      ],
+      "mean": 0.743859649122807
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.5198412698412699,
+       0.7600000000000001
+      ],
+      "mean": 0.6799470899470901
+     },
+     "entity_recall": {
+      "ci95": [
+       0.43333333333333335,
+       0.5
+      ],
+      "mean": 0.4777777777777778
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.6190476190476191,
+       0.6774193548387096
+      ],
+      "mean": 0.6385048643113159
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "same_site_different_type_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.3904761904761904,
+       0.6755555555555556
+      ],
+      "mean": 0.5127513227513227
+     },
+     "category_f1": {
+      "ci95": [
+       0.5573333333333333,
+       0.7636363636363636
+      ],
+      "mean": 0.6413219838837816
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.25,
+       0.5
+      ],
+      "mean": 0.3452380952380952
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.6666666666666666,
+       0.7999999999999999
+      ],
+      "mean": 0.726984126984127
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.7600000000000001,
+       0.8518518518518517
+      ],
+      "mean": 0.8172839506172839
+     },
+     "category_recall": {
+      "ci95": [
+       0.4400000000000001,
+       0.6999999999999998
+      ],
+      "mean": 0.5355555555555556
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.42857142857142855,
+       0.6999999999999998
+      ],
+      "mean": 0.6053571428571428
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.3904761904761904,
+       0.6755555555555556
+      ],
+      "mean": 0.5127513227513227
+     },
+     "entity_f1": {
+      "ci95": [
+       0.5573333333333333,
+       0.7636363636363636
+      ],
+      "mean": 0.6413219838837816
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.25,
+       0.5
+      ],
+      "mean": 0.3452380952380952
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.6666666666666666,
+       0.7999999999999999
+      ],
+      "mean": 0.726984126984127
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.7600000000000001,
+       0.8518518518518517
+      ],
+      "mean": 0.8172839506172839
+     },
+     "entity_recall": {
+      "ci95": [
+       0.4400000000000001,
+       0.6999999999999998
+      ],
+      "mean": 0.5355555555555556
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.42857142857142855,
+       0.6999999999999998
+      ],
+      "mean": 0.6053571428571428
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "same_word_different_organ_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.395959595959596,
+       0.5909090909090909
+      ],
+      "mean": 0.47117845117845114
+     },
+     "category_f1": {
+      "ci95": [
+       0.42698624056813134,
+       0.5975609756097561
+      ],
+      "mean": 0.5165356273496697
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.6296296296296297,
+       0.7741935483870966
+      ],
+      "mean": 0.6998251173099233
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.631578947368421,
+       0.7368421052631579
+      ],
+      "mean": 0.6914344685242518
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.3523809523809524,
+       0.5
+      ],
+      "mean": 0.4174603174603175
+     },
+     "category_recall": {
+      "ci95": [
+       0.5416666666666666,
+       0.7638888888888888
+      ],
+      "mean": 0.6826599326599325
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.2631578947368421,
+       0.6111111111111112
+      ],
+      "mean": 0.4025341130604289
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.395959595959596,
+       0.5909090909090909
+      ],
+      "mean": 0.47117845117845114
+     },
+     "entity_f1": {
+      "ci95": [
+       0.42698624056813134,
+       0.5975609756097561
+      ],
+      "mean": 0.5165356273496697
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.6296296296296297,
+       0.7741935483870966
+      ],
+      "mean": 0.6998251173099233
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.631578947368421,
+       0.7368421052631579
+      ],
+      "mean": 0.6914344685242518
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.3523809523809524,
+       0.5
+      ],
+      "mean": 0.4174603174603175
+     },
+     "entity_recall": {
+      "ci95": [
+       0.5416666666666666,
+       0.7638888888888888
+      ],
+      "mean": 0.6826599326599325
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.2631578947368421,
+       0.6111111111111112
+      ],
+      "mean": 0.4025341130604289
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    },
+    "simultaneous_distinct_with_distractor_pilot": {
+     "category_ceaf_e_f1": {
+      "ci95": [
+       0.5079365079365079,
+       0.6666666666666665
+      ],
+      "mean": 0.6093121693121692
+     },
+     "category_f1": {
+      "ci95": [
+       0.6731391585760518,
+       0.7777777777777778
+      ],
+      "mean": 0.7280834232290543
+     },
+     "category_merge_pair_rate": {
+      "ci95": [
+       0.0,
+       0.3125
+      ],
+      "mean": 0.13925438596491227
+     },
+     "category_muc_f1": {
+      "ci95": [
+       0.7692307692307692,
+       0.9411764705882352
+      ],
+      "mean": 0.8293950058655941
+     },
+     "category_n_worlds": 3,
+     "category_precision": {
+      "ci95": [
+       0.8148148148148149,
+       1.0
+      ],
+      "mean": 0.9012345679012346
+     },
+     "category_recall": {
+      "ci95": [
+       0.5416666666666666,
+       0.6666666666666666
+      ],
+      "mean": 0.61489898989899
+     },
+     "category_split_pair_rate": {
+      "ci95": [
+       0.3888888888888889,
+       0.5161290322580645
+      ],
+      "mean": 0.46833930704898447
+     },
+     "entity_ceaf_e_f1": {
+      "ci95": [
+       0.582312925170068,
+       0.8333333333333334
+      ],
+      "mean": 0.690400604686319
+     },
+     "entity_f1": {
+      "ci95": [
+       0.6433862433862434,
+       0.7272727272727272
+      ],
+      "mean": 0.6719400869938505
+     },
+     "entity_merge_pair_rate": {
+      "ci95": [
+       0.4000000000000001,
+       0.6875
+      ],
+      "mean": 0.5379385964912281
+     },
+     "entity_muc_f1": {
+      "ci95": [
+       0.6666666666666666,
+       0.75
+      ],
+      "mean": 0.7075163398692811
+     },
+     "entity_n_worlds": 3,
+     "entity_precision": {
+      "ci95": [
+       0.5925925925925926,
+       0.7272727272727272
+      ],
+      "mean": 0.6621773288439955
+     },
+     "entity_recall": {
+      "ci95": [
+       0.625,
+       0.7272727272727272
+      ],
+      "mean": 0.6853254769921436
+     },
+     "entity_split_pair_rate": {
+      "ci95": [
+       0.4000000000000001,
+       0.5
+      ],
+      "mean": 0.4481481481481482
+     },
+     "n_worlds": 3,
+     "unresolved_mention_rate": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "mean": 0.0
+     }
+    }
+   },
+   "draws": 10000,
+   "overall": {
+    "category_ceaf_e_f1": {
+     "ci95": [
+      0.5089123977873977,
+      0.5911037203537203
+     ],
+     "mean": 0.5501005013505013
+    },
+    "category_f1": {
+     "ci95": [
+      0.5839468542995304,
+      0.6771931308260286
+     ],
+     "mean": 0.6296202210072075
+    },
+    "category_merge_pair_rate": {
+     "ci95": [
+      0.3029423007139092,
+      0.4889565120218573
+     ],
+     "mean": 0.39713529984388335
+    },
+    "category_muc_f1": {
+     "ci95": [
+      0.7472830900215769,
+      0.8186495498037681
+     ],
+     "mean": 0.7825190876661465
+    },
+    "category_n_worlds": 24,
+    "category_precision": {
+     "ci95": [
+      0.6327763999118164,
+      0.786906791125541
+     ],
+     "mean": 0.7107239057239058
+    },
+    "category_recall": {
+     "ci95": [
+      0.5473796446608947,
+      0.6321318843193842
+     ],
+     "mean": 0.5881350208433541
+    },
+    "category_split_pair_rate": {
+     "ci95": [
+      0.4648248747389018,
+      0.5681741549407879
+     ],
+     "mean": 0.5189793192198399
+    },
+    "entity_ceaf_e_f1": {
+     "ci95": [
+      0.5193494382601526,
+      0.6086189101903388
+     ],
+     "mean": 0.5637021179878322
+    },
+    "entity_f1": {
+     "ci95": [
+      0.5704533972260778,
+      0.6380026547114429
+     ],
+     "mean": 0.6040861746437222
+    },
+    "entity_merge_pair_rate": {
+     "ci95": [
+      0.48764017773929197,
+      0.5887078092456821
+     ],
+     "mean": 0.5391196706665295
+    },
+    "entity_muc_f1": {
+     "ci95": [
+      0.7099274227234753,
+      0.7610255929857322
+     ],
+     "mean": 0.7356753812636164
+    },
+    "entity_n_worlds": 24,
+    "entity_precision": {
+     "ci95": [
+      0.5721304550966008,
+      0.6735667989417987
+     ],
+     "mean": 0.6227767255892256
+    },
+    "entity_recall": {
+     "ci95": [
+      0.5645259389530223,
+      0.6551630090588424
+     ],
+     "mean": 0.6098126102292769
+    },
+    "entity_split_pair_rate": {
+     "ci95": [
+      0.4677812849028186,
+      0.562850941056719
+     ],
+     "mean": 0.5161758235568012
+    },
+    "n_worlds": 24,
+    "unresolved_mention_rate": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0
+    }
+   },
+   "seed": 42,
+   "worlds_answered": 24,
+   "worlds_total": 24
+  }
+ }
+}
