@@ -36,7 +36,7 @@ The test labels stay private. A maintainer scores each submission and posts the 
 - Category F1 and Entity F1 are two scores. The maintainer does not combine them, and the project does not
   publish a single ranking number.
 
-## Record format
+## Prediction records (input to make-submission)
 
 `h1bench run` writes JSONL, one record per world:
 
@@ -50,4 +50,24 @@ The test labels stay private. A maintainer scores each submission and posts the 
   mention as unresolved.
 - Mentions with the same label in a partition are in the same group of that partition.
 
-`submission.json` holds the same information keyed by `world_id`, plus the metadata fields.
+`make-submission` exits with code 2 and writes nothing if the file is incomplete or invalid.
+
+## submission.json
+
+`make-submission` writes one JSON object on a single line:
+
+```json
+{"schema_version": "1.0", "benchmark": "h1-v2-test", "model": "<name>", "date": "YYYY-MM-DD",
+ "h1bench_version": "1.0.0", "input_sha256": "...", "prompt_files_sha256": "...",
+ "prompt_world_matches": {"matching_reference": 400, "checked": 400},
+ "n_worlds": 400, "n_answered": 400,
+ "predictions": {"w_...": {"status": "ok",
+                           "category": {"m_...": "cluster_000001"},
+                           "entity": {"m_...": "cluster_000001"}}}}
+```
+
+- `predictions` has one entry per test world, keyed by `world_id`.
+- A world without a usable answer has the status `failed_api`, `failed_parse` or `missing`, and `null` for
+  `category` and `entity`.
+- `prompt_world_matches` counts the worlds whose prompt hash equals the reference prompt, out of the
+  records that carry a hash.

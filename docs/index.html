@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FindingFrame H1 Benchmark</title>
+<meta name="description" content="A synthetic benchmark that tests whether a system keeps one continuing finding together and keeps two look-alike findings apart.">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans antialiased leading-relaxed">
+
+<header class="border-b border-gray-200 py-16">
+<div class="max-w-4xl mx-auto px-6">
+<p class="text-gray-400 text-sm font-medium tracking-widest uppercase mb-4">Public Release, October 2026</p>
+<h1 class="text-4xl font-light tracking-tight mb-6 leading-tight">H1: The Hidden-Identity<br>Linking Benchmark</h1>
+<p class="text-gray-700 mb-8 max-w-2xl">Across a patient's report mentions, does a system keep one continuing finding together, and keep two look-alike findings with the same key apart?</p>
+<div class="border-l-2 border-gray-300 pl-6 text-gray-600 text-sm leading-relaxed max-w-2xl">
+<p class="mb-3"><strong class="text-gray-800">What it is.</strong> 400 synthetic worlds. Each world holds 8 to 14 mentions of findings across 3 to 5 reports. A system groups the mentions. A scorer compares the groups with the groups the authors wrote.</p>
+<p class="mb-3"><strong class="text-gray-800">What it is not.</strong> The worlds are synthetic. The inputs are structured frame slots (oracle frames), not raw report text. The benchmark tests linking only, not extraction. No clinician labelled anything, and the labels encode the scenario the authors wrote. This is not clinical validation.</p>
+<p class="mb-3"><strong class="text-gray-800">Ranking caveat.</strong> The team that wrote the benchmark also wrote the FindingFrame linker. Its results appear below as author reference baselines and carry no rank.</p>
+</div>
+<p class="mt-8 text-sm"><a class="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-700" href="https://github.com/Sher110106/findingframe-h1">github.com/Sher110106/findingframe-h1</a></p>
+</div>
+</header>
+
+<main class="max-w-4xl mx-auto px-6 py-16 space-y-20">
+
+<section>
+<h2 class="text-2xl font-light text-gray-800 border-b border-gray-200 pb-3 mb-8">The Task</h2>
+<p class="text-gray-700 mb-4">A patient has several reports over time. A report may mention the same liver lesion in March and again in June, with different wording. Another report may mention a second lesion at the same site. A tracking system must decide which mentions belong together.</p>
+<p class="text-gray-700 mb-4">H1 asks for two groupings of every world's mentions:</p>
+<ul class="list-disc pl-6 mb-6 space-y-1.5 text-gray-600 text-sm">
+<li><strong class="text-gray-800">Category partition.</strong> Mentions of the same finding type, organ, and side go together.</li>
+<li><strong class="text-gray-800">Entity partition.</strong> Mentions of the same individual lesion go together. Two lesions can share one category, so entities are finer than categories.</li>
+</ul>
+<div class="bg-gray-50 border border-gray-200 px-5 py-4 text-sm text-gray-700">
+<strong class="text-gray-900">Plain scope.</strong> The inputs are frame slots (finding type, anatomy, laterality, measurement, change, assertion), each with an opaque mention ID. The benchmark gives no patient ID, category ID, or entity ID. The scorer holds the labels, and they come from the authored scenario. They are not clinician judgments.
+</div>
+</section>
+
+<section>
+<h2 class="text-2xl font-light text-gray-800 border-b border-gray-200 pb-3 mb-8">How It Works</h2>
+<div class="bg-white border border-gray-200 rounded p-5 mb-8">
+<svg viewBox="0 0 760 250" class="w-full h-auto" role="img" aria-label="A world of mentions goes to a system, which outputs a category partition and an entity partition. A scorer with hidden labels compares both.">
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#666"/></marker></defs>
+<g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1a1a1a">
+<rect x="10" y="70" width="150" height="110" fill="#f5f5f5" stroke="#d4d4d4"/>
+<text x="85" y="95" text-anchor="middle" font-weight="600">World</text>
+<text x="85" y="118" text-anchor="middle" font-size="12" fill="#666">8 to 14 mentions</text>
+<text x="85" y="138" text-anchor="middle" font-size="12" fill="#666">3 to 5 reports</text>
+<text x="85" y="158" text-anchor="middle" font-size="12" fill="#666">2 to 3 categories</text>
+<line x1="160" y1="125" x2="215" y2="125" stroke="#666" marker-end="url(#ar)"/>
+<rect x="220" y="85" width="140" height="80" fill="#eee" stroke="#d4d4d4"/>
+<text x="290" y="120" text-anchor="middle" font-weight="600">Your system</text>
+<text x="290" y="140" text-anchor="middle" font-size="12" fill="#666">sees slots only</text>
+<line x1="360" y1="110" x2="415" y2="70" stroke="#666" marker-end="url(#ar)"/>
+<line x1="360" y1="140" x2="415" y2="180" stroke="#666" marker-end="url(#ar)"/>
+<rect x="420" y="40" width="150" height="60" fill="#f5f5f5" stroke="#d4d4d4"/>
+<text x="495" y="75" text-anchor="middle" font-weight="600">Category partition</text>
+<rect x="420" y="150" width="150" height="60" fill="#f5f5f5" stroke="#d4d4d4"/>
+<text x="495" y="185" text-anchor="middle" font-weight="600">Entity partition</text>
+<line x1="570" y1="70" x2="625" y2="110" stroke="#666" marker-end="url(#ar)"/>
+<line x1="570" y1="180" x2="625" y2="140" stroke="#666" marker-end="url(#ar)"/>
+<rect x="630" y="85" width="120" height="80" fill="#e0e0e0" stroke="#bdbdbd"/>
+<text x="690" y="120" text-anchor="middle" font-weight="600">Scorer</text>
+<text x="690" y="140" text-anchor="middle" font-size="12" fill="#555">holds labels</text>
+<path d="M85 180 L85 230 L690 230 L690 165" fill="none" stroke="#999" stroke-dasharray="4 3" marker-end="url(#ar)"/>
+<text x="390" y="222" text-anchor="middle" font-size="12" fill="#666">labels travel to the scorer only, never to the system</text>
+</g>
+</svg>
+</div>
+<p class="bg-gray-50 px-4 py-3 mb-8 text-sm text-gray-600">The system never sees a label. The scorer reports category and entity quality separately, so a system cannot hide a weak entity result behind a strong category result.</p>
+
+<h3 class="text-lg font-medium text-gray-800 mb-2">The eight v2 families</h3>
+<p class="text-gray-700 mb-4">The test split has 400 worlds, 50 per family. Each world holds a target category and one or two look-alike distractor categories.</p>
+<ul class="list-disc pl-6 mb-6 space-y-1.5 text-gray-600 text-sm">
+<li><strong class="text-gray-800"><code>granularity_with_laterality_distractor</code>.</strong> Rib or bone metastasis on one side, with the same finding on the other side. The target's own mentions switch between "rib" and "bone".</li>
+<li><strong class="text-gray-800"><code>granularity_with_organ_distractor</code>.</strong> Rib or bone metastasis on one side, with a sideless spine or bone metastasis sharing the word "bone".</li>
+<li><strong class="text-gray-800"><code>laterality_pair_same_type</code>.</strong> Lung metastasis on one side and on the other side.</li>
+<li><strong class="text-gray-800"><code>same_word_different_organ</code>.</strong> A breast primary tumor, a stomach primary tumor, and a liver metastasis, all described with "mass" or "lesion".</li>
+<li><strong class="text-gray-800"><code>same_site_different_type</code>.</strong> Lung metastasis and pneumonia or infection in the same lung, same side.</li>
+<li><strong class="text-gray-800"><code>simultaneous_distinct_with_distractor</code>.</strong> Two liver metastases at once (same key, two entities), plus an abdominal lymph node metastasis.</li>
+<li><strong class="text-gray-800"><code>descriptor_pair_with_distractor</code>.</strong> Two breast primary tumors with the same key, described with or without a distinguishing descriptor, plus a rib bone metastasis.</li>
+<li><strong class="text-gray-800"><code>episode_reuse_with_distractor</code>.</strong> A liver metastasis resolves, then a new lesion reuses the same key, plus a rib bone metastasis.</li>
+</ul>
+<p class="text-xs text-gray-400 mt-2">Source: <code>DATA_CARD.md</code> and the <code>contracts/</code> folder in the repository.</p>
+</section>
+
+<section>
+<h2 class="text-2xl font-light text-gray-800 border-b border-gray-200 pb-3 mb-8">Metrics</h2>
+<ul class="list-disc pl-6 mb-6 space-y-1.5 text-gray-600 text-sm">
+<li><strong class="text-gray-800">Category B-cubed F1</strong> and <strong class="text-gray-800">Entity B-cubed F1</strong> are co-primary. We never combine them into one score.</li>
+<li><strong class="text-gray-800">Split and merge rates.</strong> The share of true same-group pairs the system separated (split), and the share of true different-group pairs it joined (merge). Each is reported for categories and for entities.</li>
+<li><strong class="text-gray-800">Coverage.</strong> The unresolved rate: the share of mentions a system left without a group. Unresolved mentions stay in the denominator.</li>
+<li><strong class="text-gray-800">Uncertainty.</strong> Every interval is a 95% CI from a world bootstrap (10,000 draws, seed 42). Paired contrasts resample within each family and weight families equally.</li>
+</ul>
+<div class="bg-gray-50 border border-gray-200 px-5 py-4 text-sm text-gray-700 mb-6">
+<strong class="text-gray-900">Why v2 exists.</strong> In v1, every test world held one gold category. A system that put every mention of a world in one group scored a category F1 of 1.000, and a category merge error could not happen. We found this on 2026-09-27, while reviewing an interim look at v1 results. v2 puts 2 to 3 categories in every world, so merging distinct findings now costs as much as splitting one. Read v1 results only with this flaw in mind. We keep v1 in the repository, marked as flawed. Only v1 train and dev worlds ship. There is no v1 test split in the repository. Every v1 test world had one gold category. In the shipped v1 dev data, two families hold more than one: <code>laterality_change</code> (two categories in all 100 worlds) and <code>report_order_permutations</code> (two in 51 of 100).
+</div>
+<p class="text-sm text-gray-600 leading-relaxed">In v2 the same one-group baseline scores a category F1 of 0.676, and the one-group-per-mention baseline scores 0.344. Trivial baselines sit beside every model result below for this reason.</p>
+</section>
+
+<section>
+<h2 class="text-2xl font-light text-gray-800 border-b border-gray-200 pb-3 mb-8">Results on the v2 Test Split</h2>
+<div class="bg-gray-50 border-2 border-gray-400 px-5 py-4 text-sm text-gray-700 mb-6">
+<strong class="text-gray-900">Read this before using the scores.</strong>
+<ul class="list-disc pl-6 mt-2 space-y-1.5 text-gray-600">
+<li>Simple rules solve the Category axis. The strict-laterality ablation scores 1.000, and so does a rule written by hand from the public contract.</li>
+<li>Entity is the axis that separates systems.</li>
+<li>That hand-written rule reached Entity F1 0.955 on the private test labels. This is above every published row (the best is 0.927, the strict-laterality ablation).</li>
+<li>Treat v2 as a diagnostic of linking behaviour. It is not a leaderboard.</li>
+<li>Raw-text v3 is planned to remove this ceiling.</li>
+</ul>
+</div>
+<p class="text-gray-700 mb-4">All rows use the same 400 test worlds. GLM answered 342 of them. GLM spent its whole token budget on reasoning in all three tries for the other 58. Those worlds stay in the denominator and score as unresolved singletons. This earns partial credit, not zero: mean category F1 on the 58 failed GLM worlds is 0.326. The rows labelled "author reference baseline, unranked" come from the linker the benchmark authors wrote. Do not compare a model against them as if they were an independent entrant.</p>
+<div class="overflow-x-auto mb-4">
+<table class="w-full text-sm border-collapse text-gray-600">
+<thead><tr class="border-b border-gray-300">
+<th class="p-2.5 text-left font-medium text-gray-500 text-xs uppercase tracking-wider">Method</th>
+<th class="p-2.5 text-left font-medium text-gray-500 text-xs uppercase tracking-wider">Category F1</th>
+<th class="p-2.5 text-left font-medium text-gray-500 text-xs uppercase tracking-wider">Cat. split</th>
+<th class="p-2.5 text-left font-medium text-gray-500 text-xs uppercase tracking-wider">Cat. merge</th>
+<th class="p-2.5 text-left font-medium text-gray-500 text-xs uppercase tracking-wider">Entity F1</th>
+<th class="p-2.5 text-left font-medium text-gray-500 text-xs uppercase tracking-wider">Ent. split</th>
+<th class="p-2.5 text-left font-medium text-gray-500 text-xs uppercase tracking-wider">Ent. merge</th>
+<th class="p-2.5 text-left font-medium text-gray-500 text-xs uppercase tracking-wider">Unresolved</th>
+</tr></thead>
+<tbody>
+<tr class="border-b border-gray-300 bg-gray-100"><td colspan="8" class="p-2.5 font-medium text-gray-800 text-xs uppercase tracking-wider">Trivial baselines (no model, no key logic)</td></tr>
+<tr class="border-b border-gray-200"><td class="p-2.5 text-gray-800">One group per world</td><td class="p-2.5">0.676 <span class="text-gray-400 text-xs">CI [0.669, 0.682]</span></td><td class="p-2.5">0.000</td><td class="p-2.5">0.539</td><td class="p-2.5">0.599 <span class="text-gray-400 text-xs">CI [0.590, 0.608]</span></td><td class="p-2.5">0.000</td><td class="p-2.5">0.628</td><td class="p-2.5">0.000</td></tr>
+<tr class="border-b border-gray-200 bg-gray-50"><td class="p-2.5 text-gray-800">One group per mention</td><td class="p-2.5">0.344 <span class="text-gray-400 text-xs">CI [0.340, 0.348]</span></td><td class="p-2.5">1.000</td><td class="p-2.5">0.000</td><td class="p-2.5">0.392 <span class="text-gray-400 text-xs">CI [0.385, 0.398]</span></td><td class="p-2.5">1.000</td><td class="p-2.5">0.000</td><td class="p-2.5">0.000</td></tr>
+<tr class="border-b border-gray-200"><td class="p-2.5 text-gray-800">Raw surface equality</td><td class="p-2.5">0.603 <span class="text-gray-400 text-xs">CI [0.594, 0.612]</span></td><td class="p-2.5">0.547</td><td class="p-2.5">0.437</td><td class="p-2.5">0.575 <span class="text-gray-400 text-xs">CI [0.567, 0.584]</span></td><td class="p-2.5">0.553</td><td class="p-2.5">0.568</td><td class="p-2.5">0.000</td></tr>
+<tr class="border-b border-gray-300 bg-gray-100"><td colspan="8" class="p-2.5 font-medium text-gray-800 text-xs uppercase tracking-wider">Language models (author runs)</td></tr>
+<tr class="border-b border-gray-200"><td class="p-2.5 text-gray-800">DeepSeek-v4.1-flash, category partition</td><td class="p-2.5">0.925 <span class="text-gray-400 text-xs">CI [0.911, 0.938]</span></td><td class="p-2.5">0.142</td><td class="p-2.5">0.000</td><td class="p-2.5">0.852 <span class="text-gray-400 text-xs">CI [0.840, 0.864]</span></td><td class="p-2.5">0.142</td><td class="p-2.5">0.176</td><td class="p-2.5">0.000</td></tr>
+<tr class="border-b border-gray-200 bg-gray-50"><td class="p-2.5 text-gray-800">DeepSeek-v4.1-flash, entity partition</td><td class="p-2.5">0.886 <span class="text-gray-400 text-xs">CI [0.875, 0.898]</span></td><td class="p-2.5">0.255</td><td class="p-2.5">0.001</td><td class="p-2.5">0.888 <span class="text-gray-400 text-xs">CI [0.876, 0.900]</span></td><td class="p-2.5">0.170</td><td class="p-2.5">0.088</td><td class="p-2.5">0.000</td></tr>
+<tr class="border-b border-gray-200"><td class="p-2.5 text-gray-800">GLM-5.3-flash, category partition (342 of 400 answered)</td><td class="p-2.5">0.850 <span class="text-gray-400 text-xs">CI [0.825, 0.873]</span></td><td class="p-2.5">0.245</td><td class="p-2.5">0.000</td><td class="p-2.5">0.780 <span class="text-gray-400 text-xs">CI [0.759, 0.801]</span></td><td class="p-2.5">0.245</td><td class="p-2.5">0.171</td><td class="p-2.5">0.145</td></tr>
+<tr class="border-b border-gray-200 bg-gray-50"><td class="p-2.5 text-gray-800">GLM-5.3-flash, entity partition (342 of 400 answered)</td><td class="p-2.5">0.818 <span class="text-gray-400 text-xs">CI [0.795, 0.840]</span></td><td class="p-2.5">0.335</td><td class="p-2.5">0.000</td><td class="p-2.5">0.817 <span class="text-gray-400 text-xs">CI [0.794, 0.839]</span></td><td class="p-2.5">0.254</td><td class="p-2.5">0.089</td><td class="p-2.5">0.145</td></tr>
+<tr class="border-b border-gray-300 bg-gray-100"><td colspan="8" class="p-2.5 font-medium text-gray-800 text-xs uppercase tracking-wider">Author reference baselines, unranked (written by the team that wrote the benchmark)</td></tr>
+<tr class="border-b border-gray-200"><td class="p-2.5 text-gray-800">Exact normalized key</td><td class="p-2.5">0.920 <span class="text-gray-400 text-xs">CI [0.906, 0.933]</span></td><td class="p-2.5">0.151</td><td class="p-2.5">0.000</td><td class="p-2.5">0.847 <span class="text-gray-400 text-xs">CI [0.835, 0.860]</span></td><td class="p-2.5">0.151</td><td class="p-2.5">0.176</td><td class="p-2.5">0.000</td></tr>
+<tr class="border-b border-gray-200 bg-gray-50"><td class="p-2.5 text-gray-800">Compatibility linker</td><td class="p-2.5">0.947 <span class="text-gray-400 text-xs">CI [0.933, 0.960]</span></td><td class="p-2.5">0.093</td><td class="p-2.5">0.000</td><td class="p-2.5">0.874 <span class="text-gray-400 text-xs">CI [0.860, 0.888]</span></td><td class="p-2.5">0.093</td><td class="p-2.5">0.176</td><td class="p-2.5">0.000</td></tr>
+<tr class="border-b border-gray-200"><td class="p-2.5 text-gray-800">Strict laterality (ablation)</td><td class="p-2.5">1.000 <span class="text-gray-400 text-xs">CI [1.000, 1.000]</span></td><td class="p-2.5">0.000</td><td class="p-2.5">0.000</td><td class="p-2.5">0.927 <span class="text-gray-400 text-xs">CI [0.918, 0.937]</span></td><td class="p-2.5">0.000</td><td class="p-2.5">0.176</td><td class="p-2.5">0.000</td></tr>
+<tr class="border-b border-gray-200 bg-gray-50"><td class="p-2.5 text-gray-800">Descriptor comparator</td><td class="p-2.5">0.909 <span class="text-gray-400 text-xs">CI [0.895, 0.922]</span></td><td class="p-2.5">0.177</td><td class="p-2.5">0.000</td><td class="p-2.5">0.858 <span class="text-gray-400 text-xs">CI [0.845, 0.871]</span></td><td class="p-2.5">0.151</td><td class="p-2.5">0.150</td><td class="p-2.5">0.000</td></tr>
+<tr class="border-b border-gray-200"><td class="p-2.5 text-gray-800">No anatomy hierarchy (ablation)</td><td class="p-2.5">0.913 <span class="text-gray-400 text-xs">CI [0.898, 0.928]</span></td><td class="p-2.5">0.151</td><td class="p-2.5">0.043</td><td class="p-2.5">0.841 <span class="text-gray-400 text-xs">CI [0.827, 0.854]</span></td><td class="p-2.5">0.151</td><td class="p-2.5">0.219</td><td class="p-2.5">0.000</td></tr>
+</tbody>
+</table>
+</div>
+<p class="text-xs text-gray-400 mt-2 mb-6">Cohort: 400 v2 test worlds, 50 per family. Source: <code>results/v2_test_results.json</code> (<code>systems.*.overall</code>). Means are over worlds, and CIs come from the bootstrap in the same file. A model's category-partition row and entity-partition row are two separate outputs from one model, so each row shows all columns for that output.</p>
+
+<div class="bg-gray-50 border border-gray-200 px-5 py-4 text-sm text-gray-700 mb-6">
+<strong class="text-gray-900">How to read it.</strong> The one-group-per-world baseline merges everything and gets an entity merge of 0.628. The one-group-per-mention baseline splits everything. A useful result has to beat both, on both axes. The strict laterality ablation scores 1.000 on categories, so the top category result on v2 is a rule, not a model.
+</div>
+
+<h3 class="text-lg font-medium text-gray-800 mb-2">Paired contrasts against the author baselines</h3>
+<div class="overflow-x-auto mb-4">
+<table class="w-full text-sm border-collapse text-gray-600">
+<thead><tr class="border-b border-gray-300">
+<th class="p-2.5 text-left font-medium text-gray-500 text-xs uppercase tracking-wider">Contrast</th>
+<th class="p-2.5 text-left font-medium text-gray-500 text-xs uppercase tracking-wider">Difference</th>
+</tr></thead>
+<tbody>
+<tr class="border-b border-gray-200"><td class="p-2.5 text-gray-800">DeepSeek category partition minus compatibility linker, category F1, all 400 worlds</td><td class="p-2.5">−0.022 <span class="text-gray-400 text-xs">CI [−0.026, −0.018]</span></td></tr>
+<tr class="border-b border-gray-200 bg-gray-50"><td class="p-2.5 text-gray-800">GLM category partition minus compatibility linker, category F1, all 400 worlds</td><td class="p-2.5">−0.097 <span class="text-gray-400 text-xs">CI [−0.114, −0.081]</span></td></tr>
+<tr class="border-b border-gray-200"><td class="p-2.5 text-gray-800">DeepSeek entity partition minus exact key, entity F1, all 400 worlds</td><td class="p-2.5">+0.041 <span class="text-gray-400 text-xs">CI [+0.031, +0.050]</span></td></tr>
+<tr class="border-b border-gray-200 bg-gray-50"><td class="p-2.5 text-gray-800">GLM entity partition minus exact key, entity F1, all 400 worlds</td><td class="p-2.5">−0.030 <span class="text-gray-400 text-xs">CI [−0.049, −0.011]</span></td></tr>
+</tbody>
+</table>
+</div>
+<p class="text-xs text-gray-400 mt-2 mb-6">Source: <code>results/v2_test_results.json</code>, <code>contrasts</code> (mean difference and 95% CI, paired world bootstrap, equal-family weights, 10,000 draws).</p>
+
+<h3 class="text-lg font-medium text-gray-800 mb-2">What the numbers support</h3>
+<ul class="list-disc pl-6 mb-6 space-y-1.5 text-gray-600 text-sm">
+<li><strong class="text-gray-800">Neither model beats the compatibility linker on categories.</strong> Category F1 is 0.925 for DeepSeek and 0.850 for GLM, against 0.947 for the linker. Both paired differences are negative and both intervals exclude zero.</li>
+<li><strong class="text-gray-800">Both models reduce same-key entity merges.</strong> Entity merge is 0.088 (DeepSeek) and 0.089 (GLM) on their entity partitions, against 0.176 for exact key and for the compatibility linker.</li>
+<li><strong class="text-gray-800">The merge gain does not become an entity F1 gain for GLM.</strong> The 58 unanswered worlds count as unresolved mentions, which lowers its entity F1 relative to exact key. DeepSeek's entity partition does beat exact key on entity F1.</li>
+</ul>
+<p class="text-xs text-gray-400 mt-2">Scope note: these are results for two models, one prompt, temperature 0, on synthetic oracle-frame worlds. Each world got one run, except that GLM had up to three attempts per world. They say nothing about extraction from real reports.</p>
+</section>
+
+<section>
+<h2 class="text-2xl font-light text-gray-800 border-b border-gray-200 pb-3 mb-8">Run It Yourself</h2>
+<p class="text-gray-700 mb-4">A clean machine can install the package, run a smoke test, score a model on the development set, and build a test submission. Each step is one command.</p>
+<div class="bg-gray-50 border border-gray-100 px-4 py-3 mb-4 text-sm text-gray-600 rounded font-mono overflow-x-auto">
+<pre class="whitespace-pre-wrap break-words">git clone https://github.com/Sher110106/findingframe-h1 && cd findingframe-h1
+python -m venv .venv && source .venv/bin/activate
+pip install -e ".[openai,test]"
+pytest -q
+h1bench smoke
+h1bench baselines --split dev
+
+export OPENAI_API_KEY=...
+h1bench run --split dev --base-url https://api.openai.com/v1 --model gpt-4o-mini
+h1bench score --split dev predictions_dev_gpt-4o-mini.jsonl
+
+h1bench run --split test --base-url https://api.openai.com/v1 --model gpt-4o-mini
+h1bench make-submission predictions_test_gpt-4o-mini.jsonl --model "gpt-4o-mini"</pre>
+</div>
+<p class="text-sm text-gray-600 leading-relaxed mb-4"><code>h1bench run</code> calls any OpenAI-compatible endpoint and writes a predictions file named <code>predictions_&lt;split&gt;_&lt;model&gt;.jsonl</code> (change it with <code>--out</code>). <code>h1bench score</code> scores the development set locally, because its labels are public. <code>h1bench make-submission</code> checks the test predictions and writes <code>submission.json</code>.</p>
+<p class="text-xs text-gray-400 mt-2">The repository README lists the full options for each command.</p>
+</section>
+
+<section>
+<h2 class="text-2xl font-light text-gray-800 border-b border-gray-200 pb-3 mb-8">Submitting a Model</h2>
+<p class="text-gray-700 mb-4">Test labels stay private. If they were public, systems could tune to the test set. The maintainer scores test submissions instead.</p>
+<ul class="list-disc pl-6 mb-6 space-y-1.5 text-gray-600 text-sm">
+<li>Open a pull request that adds <code>submissions/&lt;team&gt;-&lt;model&gt;/submission.json</code>.</li>
+<li>The maintainer checks the schema and scores the file privately with the frozen test labels.</li>
+<li>The maintainer posts aggregate and per-family scores. Per-world scores stay private.</li>
+<li>Each model version gets one scored submission every 7 days.</li>
+</ul>
+<div class="bg-gray-50 border border-gray-200 px-5 py-4 text-sm text-gray-700">
+<strong class="text-gray-900">What stays private.</strong> Test labels, per-world scores and predictions, generator code and seeds, and the FindingFrame production modules. The exact-key, compatibility, strict-laterality, and descriptor baselines therefore appear as results only.
+</div>
+</section>
+
+<section>
+<h2 class="text-2xl font-light text-gray-800 border-b border-gray-200 pb-3 mb-8">Limits and Roadmap</h2>
+<div class="bg-gray-50 border border-gray-200 px-5 py-4 text-sm text-gray-700 mb-6">
+<strong class="text-gray-900">Stated limits.</strong>
+<ul class="list-disc pl-6 mt-2 space-y-1.5 text-gray-600">
+<li>The inputs are oracle frames. A system never has to read report text, so H1 cannot say how a system performs on real reports.</li>
+<li>The worlds are synthetic and authored. The labels encode the authors' intent, and no clinician checked them.</li>
+<li>The same team wrote the benchmark and the FindingFrame linker. That is why its rows carry no rank.</li>
+<li>Six of the eight families are solvable on categories from the raw slots alone. In 300 of 400 test worlds, grouping by the exact slot tuple matches the gold categories. The two granularity families, and the entity axis, carry the harder tests.</li>
+<li>One of the two LLMs failed to answer 58 worlds. GLM's unresolved mention rate by family: 0.36 in <code>granularity_with_laterality_distractor</code>, 0.32 in <code>granularity_with_organ_distractor</code>, 0.22 in <code>same_site_different_type</code>, 0.18 in <code>laterality_pair_same_type</code>, 0.06 in <code>episode_reuse_with_distractor</code>, 0.02 in <code>simultaneous_distinct_with_distractor</code>, and 0.00 in the other two.</li>
+</ul>
+</div>
+<ul class="list-disc pl-6 mb-6 space-y-1.5 text-gray-600 text-sm">
+<li><strong class="text-gray-800">v3 (next).</strong> Worlds will render report text. Families and renderer styles will be held out. The linker stays unranked.</li>
+<li><strong class="text-gray-800">H1-U (later).</strong> Uncertainty and abstention: a system may decline to link, and the scorer will report coverage and calibration apart from both F1 scores.</li>
+</ul>
+<p class="text-xs text-gray-400 mt-2">We promise no dates.</p>
+</section>
+
+</main>
+
+<footer class="border-t border-gray-200 py-8">
+<div class="max-w-4xl mx-auto px-6 text-xs text-gray-400 space-y-1">
+<p>License: MIT for code, CC BY 4.0 for data and documentation.</p>
+<p>Citation: see <code>CITATION.cff</code> in the repository.</p>
+<p>Repository: <a class="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-700" href="https://github.com/Sher110106/findingframe-h1">github.com/Sher110106/findingframe-h1</a></p>
+<p>Synthetic data only. No MIMIC text. Engineering-curated results, no clinical claim.</p>
+</div>
+</footer>
+
+</body>
+</html>

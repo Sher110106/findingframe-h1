@@ -37,25 +37,22 @@ partition and an entity partition for every world.
 ```bash
 git clone https://github.com/Sher110106/findingframe-h1 && cd findingframe-h1
 python -m venv .venv && source .venv/bin/activate
-pip install -e ".[openai]"
-h1bench smoke                       # offline, a few seconds
-h1bench baselines --split dev       # score the public baselines on the development data
+pip install -e ".[openai,test]"
+pytest -q
+h1bench smoke
+h1bench baselines --split dev
+
+export OPENAI_API_KEY=...
+h1bench run --split dev --base-url https://api.openai.com/v1 --model gpt-4o-mini
+h1bench score --split dev predictions_dev_gpt-4o-mini.jsonl
+
+h1bench run --split test --base-url https://api.openai.com/v1 --model gpt-4o-mini
+h1bench make-submission predictions_test_gpt-4o-mini.jsonl --model "gpt-4o-mini"
 ```
 
-Run a model on the development data and score it locally:
-
-```bash
-export OPENAI_API_KEY=...           # any OpenAI-compatible endpoint; pick the variable with --api-key-env
-h1bench run --split dev --base-url https://api.openai.com/v1 --model gpt-4o-mini --out dev.jsonl
-h1bench score --split dev dev.jsonl
-```
-
-Produce a test submission (see [SUBMITTING.md](SUBMITTING.md)):
-
-```bash
-h1bench run --split test --base-url ... --model ... --out test.jsonl
-h1bench make-submission test.jsonl --model "name-and-version"
-```
+`smoke` runs offline in a few seconds. Any OpenAI-compatible endpoint works. Pick the key variable with
+`--api-key-env`. `run` writes `predictions_<split>_<model>.jsonl` unless you pass `--out`. See
+[SUBMITTING.md](SUBMITTING.md) for what to do with the test submission.
 
 `run` is resumable. Re-run the same command to finish an interrupted file. Add `--retry-failed` to retry
 worlds that failed. `h1bench score --split test` refuses to run, because no test labels are shipped.
@@ -68,10 +65,22 @@ worlds that failed. `h1bench score --split test` refuses to run, because no test
 | `data/dev/v2_pilot/` | 24 v2 pilot worlds (8 families, 3 each) | yes |
 | `data/dev/v1/` | 900 v1 train and dev worlds | yes |
 
+Only v1 train and dev worlds ship. There is no v1 test split here.
+
 **v1 development data has a known flaw.** Seven of its nine families hold exactly one gold category per world,
-and every v1 test world held one. A system that puts each world in one group scores Category F1 1.000 there.
+and every v1 test world held one. The other two, `laterality_change` and `report_order_permutations`, hold two. A system that puts each world in one group scores Category F1 1.000 there.
 v1 category scores measure over-splitting only. v2 fixes this: each world holds two or three categories with
 near-miss distractors. Use v2 for any claim about category linking. See [DATA_CARD.md](DATA_CARD.md).
+
+## Read this first: v2 is a diagnostic, not a leaderboard
+
+- Simple rules solve the Category axis. The strict-laterality ablation scores Category F1 1.000, and so does a
+  rule written by hand from the public contract.
+- Entity is the axis that separates systems.
+- That hand-written rule scored Entity F1 0.955 on the private test labels. This is above every published
+  row (the best is 0.927, the strict-laterality ablation). We do not ship the rule.
+- Treat v2 as a diagnostic of linking behaviour, not a leaderboard.
+- Raw-text v3 is planned to remove this ceiling.
 
 ## Results (v2 test, 400 worlds)
 
@@ -94,10 +103,11 @@ rows are context only. The results file also lists the ablations (strict lateral
 raw anatomy, descriptor comparator, order variants).
 
 GLM answered 342 of 400 worlds. For the other 58 it spent its whole token budget on reasoning in all three
-tries. Those worlds score as unresolved and stay in the denominator. GLM's numbers therefore mix quality
+tries. Those worlds score as unresolved singletons and stay in the denominator. This earns partial credit, not
+zero: mean category F1 on the 58 failed worlds is 0.326. GLM's numbers therefore mix quality
 with failure to answer.
 
-Both LLMs ran once per world, at temperature 0, with the prompt in `h1bench/prompts/`. The runner in this
+Both LLMs ran at temperature 0, one run per world (GLM had up to three attempts per world), with the prompt in `h1bench/prompts/`. The runner in this
 repository reproduces that prompt exactly: the per-world prompt hash matches the paper's records on 400 of
 400 DeepSeek test worlds.
 

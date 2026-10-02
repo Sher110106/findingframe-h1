@@ -16,7 +16,7 @@
   {
    "path": "CITATION.cff",
    "relation": "authored for the public repository",
-   "sha256": "8a4ac3c7332dde2cf00697a5fd679c50e4c9250573a53d9e719d0b8f61966096",
+   "sha256": "319007a06d55742fafdb8e4f140d0fc5fff7fd8bec17103245a09bff2a9fe154",
    "source": null
   },
   {
@@ -40,13 +40,13 @@
   {
    "path": "README.md",
    "relation": "authored for the public repository",
-   "sha256": "2fbaf4e6d90cbc607fb36d5fbec1773930677a4d5c94309baaa27324237d534e",
+   "sha256": "c7dcc606897b1f8d3f1abb663fa994ab09cd8c756efd3a60083f525484bc372f",
    "source": null
   },
   {
    "path": "SUBMITTING.md",
    "relation": "authored for the public repository",
-   "sha256": "b0153919840ed7b3ca57688ef7f741363c59d54525752b860b2744f9fa6f0f76",
+   "sha256": "65e894b82e2c9e1c28cee7886f9987245a62f6c7a19a6b7378c23e9e5276c47d",
    "source": null
   },
   {
@@ -109,6 +109,12 @@
    "source": "evaluation/hidden_identity/benchmark_v2/inputs.json",
    "source_sha256": "a5ffe455508b847072bd48c03f82e595838a0274289c92aa7f861843a88ae6a1",
    "transform": "split=test worlds; keep world_id, mention_id, frame, descriptor; sorted by world_id"
+  },
+  {
+   "path": "docs/index.html",
+   "relation": "authored for the public repository",
+   "sha256": "eef4fa973bc068e8a1bed90119a8811041a546c1b69c4fe4a280c9c45cc2de14",
+   "source": null
   },
   {
    "path": "h1bench/__init__.py",
@@ -232,7 +238,7 @@
   {
    "path": "tests/test_cli.py",
    "relation": "authored for the public repository",
-   "sha256": "3ca7465a246cc8049f91751302b6086d790c8de05466953cef47b97fd7bb5f64",
+   "sha256": "ab268c618bbb5243b9187e4456ca1c56ca4bd2cab0a4608e032f98de49780bef",
    "source": null
   },
   {

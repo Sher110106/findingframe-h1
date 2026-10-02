@@ -77,3 +77,20 @@ def test_score_dev_predictions_roundtrip(tmp_path, capsys):
     p.write_text("".join(json.dumps(r) + "\n" for r in recs.values()))
     assert run(["score", "--split", "dev", "--dataset", "v2-pilot", "--draws", "50", str(p)]) == 0
     assert "| ALL | 24 |" in capsys.readouterr().out
+
+
+def test_make_submission_exit_code_nonzero_as_process(tmp_path):
+    """The `h1bench` entry point must exit non-zero when it rejects a submission."""
+    import subprocess
+    import sys
+
+    worlds, _ = ev.load_test_inputs()
+    recs = ev.baseline_records("one_group_per_world", worlds[:3])
+    p = tmp_path / "p.jsonl"
+    p.write_text("".join(json.dumps(r) + "\n" for r in recs.values()))
+    out = tmp_path / "s.json"
+    proc = subprocess.run([sys.executable, "-m", "h1bench.cli", "make-submission", str(p), "--model", "x",
+                           "--out", str(out)], capture_output=True, text=True)
+    assert proc.returncode != 0
+    assert "submission rejected" in proc.stderr
+    assert not out.exists()

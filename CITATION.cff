@@ -9,7 +9,9 @@ authors:
     given-names: "Sher Partap"
     # The author list is pending. Add the remaining authors and affiliations before the paper release.
 repository-code: "https://github.com/Sher110106/findingframe-h1"
-license: "MIT"
+license:
+  - MIT
+  - CC-BY-4.0
 keywords:
   - entity linking
   - longitudinal tracking
